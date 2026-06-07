@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Barbearia Premium em [Cidade] | Cortes Masculinos e Barba</title>
+    <meta name="description" content="Agende seu horário na melhor barbearia de [Cidade]. Cortes modernos, barba, atendimento premium e agendamento rápido pelo WhatsApp.">
+    <meta name="keywords" content="barbearia, corte masculino, barba, [Cidade], barbearia premium, degradê">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.suabarbearia.com.br">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Barbearia Premium em [Cidade] | Cortes Masculinos e Barba">
+    <meta property="og:description" content="Agende seu horário na melhor barbearia de [Cidade]. Cortes modernos, barba, atendimento premium e agendamento rápido pelo WhatsApp.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.suabarbearia.com.br">
+    <meta property="og:image" content="https://www.suabarbearia.com.br/og-image.jpg">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Schema Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Barbershop",
+        "name": "Barbearia Premium",
+        "description": "A melhor barbearia de [Cidade]. Cortes modernos, barba e atendimento premium.",
+        "url": "https://www.suabarbearia.com.br",
+        "telephone": "+55-11-99999-9999",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Exemplo, 123",
+            "addressLocality": "[Cidade]",
+            "addressRegion": "[Estado]",
+            "postalCode": "00000-000",
+            "addressCountry": "BR"
+        },
+        "openingHoursSpecification": [
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+            { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "18:00" }
+        ],
+        "priceRange": "$$",
+        "image": "https://www.suabarbearia.com.br/og-image.jpg"
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================================================
+     HEADER
+================================================ -->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#hero" class="nav__logo" aria-label="Barbearia Premium">
+            <i class="fas fa-cut"></i>
+            <span>Barbearia <em>Premium</em></span>
+        </a>
+
+        <ul class="nav__menu" id="nav-menu" role="navigation" aria-label="Menu principal">
+            <li><a href="#sobre"       class="nav__link">Sobre</a></li>
+            <li><a href="#servicos"    class="nav__link">Serviços</a></li>
+            <li><a href="#galeria"     class="nav__link">Galeria</a></li>
+            <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+            <li><a href="#contato"     class="nav__link">Contato</a></li>
+            <li>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+agendar+um+hor%C3%A1rio."
+                   class="nav__cta" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Agendar
+                </a>
+            </li>
+        </ul>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+</header>
+
+
+<!-- ================================================
+     HERO
+================================================ -->
+<section class="hero" id="hero" aria-label="Apresentação">
+    <div class="hero__bg-pattern" aria-hidden="true"></div>
+
+    <div class="container hero__content">
+        <!-- Texto -->
+        <div class="hero__text">
+            <span class="hero__pill"><i class="fas fa-star"></i> Barbearia Premium em [Cidade]</span>
+
+            <h1 class="hero__title">
+                Cortes que <span class="gold">valorizam</span><br>seu estilo.
+            </h1>
+
+            <p class="hero__subtitle">
+                Mais do que um corte de cabelo. Uma experiência completa de cuidado masculino.
+            </p>
+
+            <div class="hero__actions">
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+agendar+um+hor%C3%A1rio."
+                   class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+                </a>
+                <a href="#servicos" class="btn btn--outline btn--lg">Ver Serviços</a>
+            </div>
+
+            <ul class="hero__checks" aria-label="Diferenciais">
+                <li><i class="fas fa-circle-check" aria-hidden="true"></i> Atendimento personalizado</li>
+                <li><i class="fas fa-circle-check" aria-hidden="true"></i> Ambiente climatizado</li>
+                <li><i class="fas fa-circle-check" aria-hidden="true"></i> Profissionais experientes</li>
+                <li><i class="fas fa-circle-check" aria-hidden="true"></i> Horários flexíveis</li>
+            </ul>
+        </div>
+
+        <!-- Imagem -->
+        <div class="hero__media" aria-hidden="true">
+            <div class="hero__img-frame">
+                <div class="hero__img-placeholder">
+                    <i class="fas fa-cut"></i>
+                    <span>Substitua por uma foto real</span>
+                </div>
+                <div class="hero__badge-float">
+                    <span class="hero__badge-num">500<sup>+</sup></span>
+                    <span class="hero__badge-lbl">Clientes<br>Satisfeitos</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#beneficios" class="hero__scroll" aria-label="Rolar para baixo">
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</section>
+
+
+<!-- ================================================
+     BARRA DE BENEFÍCIOS
+================================================ -->
+<div class="benefits" id="beneficios" aria-label="Benefícios">
+    <div class="container">
+        <ul class="benefits__list">
+            <li><i class="fas fa-crown"></i> Atendimento Premium</li>
+            <li><i class="fas fa-user-tie"></i> Profissionais Especializados</li>
+            <li><i class="fas fa-couch"></i> Ambiente Confortável</li>
+            <li><i class="fas fa-bolt"></i> Agendamento Rápido</li>
+            <li><i class="fas fa-star"></i> +500 Clientes Satisfeitos</li>
+        </ul>
+    </div>
+</div>
+
+
+<!-- ================================================
+     SOBRE
+================================================ -->
+<section class="about section-pad" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container about__grid">
+
+        <div class="about__media" aria-hidden="true">
+            <div class="about__img-wrap">
+                <div class="about__img-placeholder">
+                    <i class="fas fa-store"></i>
+                    <span>Foto do espaço / equipe</span>
+                </div>
+                <div class="about__years-badge">
+                    <strong>+10</strong>
+                    <span>Anos de<br>Experiência</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__content">
+            <p class="tag">Nossa História</p>
+            <h2 class="section-title" id="sobre-titulo">
+                Mais do que uma <span class="gold">barbearia</span>
+            </h2>
+            <p class="about__text">
+                Há mais de 10 anos oferecemos cortes modernos, barba alinhada e atendimento de excelência
+                para homens que valorizam sua imagem. Nossa missão é proporcionar uma experiência única
+                de cuidado masculino em um ambiente acolhedor e profissional.
+            </p>
+            <p class="about__text">
+                Utilizamos produtos premium e técnicas modernas para garantir o melhor resultado em cada
+                atendimento. Nossos profissionais são constantemente treinados para acompanhar as tendências
+                e oferecer o que há de melhor.
+            </p>
+            <ul class="about__features" aria-label="Diferenciais">
+                <li><i class="fas fa-circle-check"></i> Atendimento pontual e personalizado</li>
+                <li><i class="fas fa-circle-check"></i> Produtos profissionais de alta qualidade</li>
+                <li><i class="fas fa-circle-check"></i> Ambiente confortável e climatizado</li>
+                <li><i class="fas fa-circle-check"></i> Equipe qualificada e treinada</li>
+                <li><i class="fas fa-circle-check"></i> Esterilização e higiene garantidas</li>
+                <li><i class="fas fa-circle-check"></i> Estacionamento no local</li>
+            </ul>
+            <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+mais+informa%C3%A7%C3%B5es."
+               class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Fale Conosco
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================================================
+     SERVIÇOS
+================================================ -->
+<section class="services section-pad" id="servicos" aria-labelledby="servicos-titulo">
+    <div class="container">
+        <header class="section-header">
+            <p class="tag">O que oferecemos</p>
+            <h2 class="section-title" id="servicos-titulo">Nossos <span class="gold">Serviços</span></h2>
+            <p class="section-sub">Cada serviço pensado para realçar o melhor em você</p>
+        </header>
+
+        <div class="services__grid">
+
+            <article class="svc-card" data-aos>
+                <div class="svc-card__icon"><i class="fas fa-cut" aria-hidden="true"></i></div>
+                <h3>Corte Masculino</h3>
+                <p>Visual moderno e acabamento impecável com navalha para melhor definição.</p>
+                <span class="svc-card__price">A partir de <strong>R$ 45</strong></span>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Quero+agendar+um+Corte+Masculino."
+                   class="svc-card__btn" target="_blank" rel="noopener noreferrer">
+                    Agendar <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+
+            <article class="svc-card" data-aos data-aos-delay="100">
+                <div class="svc-card__icon"><i class="fas fa-user-ninja" aria-hidden="true"></i></div>
+                <h3>Barba</h3>
+                <p>Modelagem e alinhamento profissional com toalha quente e produtos premium.</p>
+                <span class="svc-card__price">A partir de <strong>R$ 35</strong></span>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Quero+agendar+um+servi%C3%A7o+de+Barba."
+                   class="svc-card__btn" target="_blank" rel="noopener noreferrer">
+                    Agendar <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+
+            <article class="svc-card svc-card--featured" data-aos data-aos-delay="200">
+                <span class="svc-card__badge">Mais Popular</span>
+                <div class="svc-card__icon"><i class="fas fa-magic" aria-hidden="true"></i></div>
+                <h3>Corte + Barba</h3>
+                <p>Pacote completo para renovar seu visual com desconto especial.</p>
+                <span class="svc-card__price">A partir de <strong>R$ 70</strong></span>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Quero+agendar+o+pacote+Corte+%2B+Barba."
+                   class="svc-card__btn" target="_blank" rel="noopener noreferrer">
+                    Agendar <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+
+            <article class="svc-card" data-aos>
+                <div class="svc-card__icon"><i class="fas fa-eye" aria-hidden="true"></i></div>
+                <h3>Sobrancelha</h3>
+                <p>Acabamento discreto e natural para um visual mais cuidado e definido.</p>
+                <span class="svc-card__price">A partir de <strong>R$ 15</strong></span>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Quero+agendar+Sobrancelha."
+                   class="svc-card__btn" target="_blank" rel="noopener noreferrer">
+                    Agendar <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+
+            <article class="svc-card" data-aos data-aos-delay="100">
+                <div class="svc-card__icon"><i class="fas fa-palette" aria-hidden="true"></i></div>
+                <h3>Pigmentação</h3>
+                <p>Correção e valorização do visual com técnica profissional de pigmentação.</p>
+                <span class="svc-card__price">A partir de <strong>R$ 80</strong></span>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Quero+agendar+Pigmenta%C3%A7%C3%A3o."
+                   class="svc-card__btn" target="_blank" rel="noopener noreferrer">
+                    Agendar <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+
+            <article class="svc-card" data-aos data-aos-delay="200">
+                <div class="svc-card__icon"><i class="fas fa-droplet" aria-hidden="true"></i></div>
+                <h3>Hidratação Capilar</h3>
+                <p>Cuidados especiais para o cabelo com produtos nutritivos e revitalizantes.</p>
+                <span class="svc-card__price">A partir de <strong>R$ 50</strong></span>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Quero+agendar+Hidrata%C3%A7%C3%A3o+Capilar."
+                   class="svc-card__btn" target="_blank" rel="noopener noreferrer">
+                    Agendar <i class="fab fa-whatsapp"></i>
+                </a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================================================
+     GALERIA
+================================================ -->
+<section class="gallery section-pad" id="galeria" aria-labelledby="galeria-titulo">
+    <div class="container">
+        <header class="section-header">
+            <p class="tag">Nosso Trabalho</p>
+            <h2 class="section-title" id="galeria-titulo">Resultados que <span class="gold">falam por si</span></h2>
+            <p class="section-sub">Conheça alguns dos nossos melhores trabalhos</p>
+        </header>
+
+        <div class="gallery__filter" role="group" aria-label="Filtro de galeria">
+            <button class="gal-filter active" data-filter="all">Todos</button>
+            <button class="gal-filter" data-filter="corte">Cortes</button>
+            <button class="gal-filter" data-filter="barba">Barba</button>
+            <button class="gal-filter" data-filter="degrade">Degradê</button>
+        </div>
+
+        <div class="gallery__grid" id="gallery-grid">
+            <div class="gal-item" data-cat="corte"   data-aos><div class="gal-ph"><i class="fas fa-cut"></i><span>Corte Clássico</span></div><div class="gal-overlay"><i class="fas fa-magnifying-glass-plus"></i></div></div>
+            <div class="gal-item" data-cat="barba"   data-aos data-aos-delay="50"><div class="gal-ph"><i class="fas fa-user-ninja"></i><span>Barba Estilizada</span></div><div class="gal-overlay"><i class="fas fa-magnifying-glass-plus"></i></div></div>
+            <div class="gal-item gal-item--tall" data-cat="degrade" data-aos data-aos-delay="100"><div class="gal-ph"><i class="fas fa-magic"></i><span>Degradê Moderno</span></div><div class="gal-overlay"><i class="fas fa-magnifying-glass-plus"></i></div></div>
+            <div class="gal-item" data-cat="corte"   data-aos data-aos-delay="150"><div class="gal-ph"><i class="fas fa-cut"></i><span>Corte Moderno</span></div><div class="gal-overlay"><i class="fas fa-magnifying-glass-plus"></i></div></div>
+            <div class="gal-item" data-cat="barba"   data-aos data-aos-delay="200"><div class="gal-ph"><i class="fas fa-user-ninja"></i><span>Barba + Bigode</span></div><div class="gal-overlay"><i class="fas fa-magnifying-glass-plus"></i></div></div>
+            <div class="gal-item" data-cat="degrade" data-aos data-aos-delay="250"><div class="gal-ph"><i class="fas fa-magic"></i><span>Skin Fade</span></div><div class="gal-overlay"><i class="fas fa-magnifying-glass-plus"></i></div></div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização ampliada">
+        <button class="lb-close" id="lb-close" aria-label="Fechar"><i class="fas fa-xmark"></i></button>
+        <button class="lb-prev"  id="lb-prev"  aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+        <button class="lb-next"  id="lb-next"  aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+        <div class="lb-content" id="lb-content"></div>
+    </div>
+</section>
+
+
+<!-- ================================================
+     DEPOIMENTOS
+================================================ -->
+<section class="testimonials section-pad" id="depoimentos" aria-labelledby="dep-titulo">
+    <div class="container">
+        <header class="section-header">
+            <p class="tag">O que dizem</p>
+            <h2 class="section-title" id="dep-titulo">Clientes <span class="gold">Satisfeitos</span></h2>
+            <p class="section-sub">Veja o que nossos clientes falam sobre nós</p>
+        </header>
+
+        <div class="carousel__wrap">
+            <div class="carousel__track" id="carousel-track" aria-live="polite">
+
+                <div class="testi-card">
+                    <div class="testi-stars" aria-label="5 de 5 estrelas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Melhor barbearia da região! Sempre saio super satisfeito. O atendimento é impecável e o resultado é incrível."</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" aria-hidden="true">JM</div>
+                        <div><strong>João Mendes</strong><span>Cliente há 3 anos</span></div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars" aria-label="5 de 5 estrelas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Profissionais muito atenciosos e ambiente excelente. Agendo sempre pelo WhatsApp e é super rápido. Recomendo!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" aria-hidden="true">CS</div>
+                        <div><strong>Carlos Silva</strong><span>Cliente há 1 ano</span></div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars" aria-label="5 de 5 estrelas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Agendamento rápido e corte impecável. Não troco por nenhuma outra barbearia. Vale muito a pena!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" aria-hidden="true">RP</div>
+                        <div><strong>Rafael Pereira</strong><span>Cliente há 2 anos</span></div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars" aria-label="5 de 5 estrelas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Fui indicado por um amigo e não me arrependo! A barba ficou perfeita e o ambiente é muito confortável."</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" aria-hidden="true">MA</div>
+                        <div><strong>Marcos Alves</strong><span>Novo cliente</span></div>
+                    </div>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-stars" aria-label="5 de 5 estrelas">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Equipe muito competente e dedicada. O corte ficou exatamente como eu queria. Já indiquei para vários amigos!"</p>
+                    <div class="testi-author">
+                        <div class="testi-avatar" aria-hidden="true">LO</div>
+                        <div><strong>Lucas Oliveira</strong><span>Cliente há 6 meses</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="carousel__controls">
+            <button class="carousel__btn" id="dep-prev" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel__dots" id="carousel-dots" aria-label="Indicadores de slide"></div>
+            <button class="carousel__btn" id="dep-next" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================================================
+     CTA INTERMEDIÁRIO
+================================================ -->
+<div class="cta-band">
+    <div class="container cta-band__inner">
+        <div>
+            <h2>Pronto para um novo visual?</h2>
+            <p>Agende agora e ganhe <strong>10% de desconto</strong> na primeira visita!</p>
+        </div>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Vi+o+site+e+quero+meu+desconto+de+10%25!"
+           class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> Agendar com Desconto
+        </a>
+    </div>
+</div>
+
+
+<!-- ================================================
+     CONTATO / LOCALIZAÇÃO
+================================================ -->
+<section class="contact section-pad" id="contato" aria-labelledby="contato-titulo">
+    <div class="container">
+        <header class="section-header">
+            <p class="tag">Nos encontre</p>
+            <h2 class="section-title" id="contato-titulo">Localização &amp; <span class="gold">Contato</span></h2>
+            <p class="section-sub">Venha nos visitar ou entre em contato pelo WhatsApp</p>
+        </header>
+
+        <div class="contact__grid">
+            <!-- Info -->
+            <div class="contact__info">
+                <div class="cinfo-item">
+                    <div class="cinfo-icon"><i class="fas fa-location-dot"></i></div>
+                    <div>
+                        <strong>Endereço</strong>
+                        <p>Rua Exemplo, 123 — Centro<br>[Cidade] — [Estado], CEP 00000-000</p>
+                    </div>
+                </div>
+                <div class="cinfo-item">
+                    <div class="cinfo-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <strong>Telefone</strong>
+                        <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                    </div>
+                </div>
+                <div class="cinfo-item">
+                    <div class="cinfo-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a></p>
+                    </div>
+                </div>
+                <div class="cinfo-item">
+                    <div class="cinfo-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <strong>Horário de Funcionamento</strong>
+                        <table class="hours-table" aria-label="Horários">
+                            <tr><td>Segunda a Sexta</td><td class="gold">09h às 19h</td></tr>
+                            <tr><td>Sábado</td>         <td class="gold">08h às 18h</td></tr>
+                            <tr><td>Domingo</td>        <td class="closed">Fechado</td></tr>
+                        </table>
+                    </div>
+                </div>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+agendar+meu+hor%C3%A1rio."
+                   class="btn btn--primary btn--full" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Agende seu Horário Agora
+                </a>
+            </div>
+
+            <!-- Mapa -->
+            <div class="contact__map">
+                <!-- Substitua o src pelo embed do seu endereço real no Google Maps -->
+                <iframe
+                    title="Localização da Barbearia Premium"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975989995886!2d-46.6574955!3d-23.5646162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista%2C+S%C3%A3o+Paulo!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                    width="100%" height="450"
+                    style="border:0;" allowfullscreen loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================================================
+     CTA FINAL
+================================================ -->
+<section class="cta-final" aria-label="Chamada para ação final">
+    <div class="cta-final__bg" aria-hidden="true"></div>
+    <div class="container cta-final__content">
+        <p class="tag">Não espere mais</p>
+        <h2 class="cta-final__title">
+            Seu próximo corte está a apenas <span class="gold">um clique</span>.
+        </h2>
+        <p class="cta-final__sub">Fale agora conosco pelo WhatsApp e reserve seu horário.</p>
+        <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Vi+o+site+e+quero+agendar+meu+hor%C3%A1rio."
+           class="btn btn--primary btn--xl" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> Agendar Agora
+        </a>
+        <ul class="cta-final__seals">
+            <li><i class="fas fa-check"></i> Sem fila de espera</li>
+            <li><i class="fas fa-check"></i> Atendimento garantido</li>
+            <li><i class="fas fa-check"></i> Resposta em minutos</li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- ================================================
+     RODAPÉ
+================================================ -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+
+            <div class="footer__brand">
+                <div class="footer__logo"><i class="fas fa-cut"></i> Barbearia <em>Premium</em></div>
+                <p>Onde estilo encontra tradição.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__soc" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="footer__soc" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/5511999999999" class="footer__soc" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="footer__soc" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Serviços</h4>
+                <ul>
+                    <li>Corte Masculino</li>
+                    <li>Barba</li>
+                    <li>Corte + Barba</li>
+                    <li>Sobrancelha</li>
+                    <li>Pigmentação</li>
+                    <li>Hidratação Capilar</li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Contato</h4>
+                <p><i class="fas fa-location-dot"></i> Rua Exemplo, 123 — Centro</p>
+                <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                <p><i class="fab fa-whatsapp"></i> (11) 99999-9999</p>
+                <p><i class="fas fa-clock"></i> Seg–Sex: 09h–19h | Sáb: 08h–18h</p>
+                <a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Gostaria+de+agendar."
+                   class="btn btn--primary btn--full footer__cta" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Agendar
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy; <span id="footer-year"></span> Barbearia Premium. Todos os direitos reservados.</p>
+            <p>Desenvolvido com <i class="fas fa-heart" aria-label="amor"></i> para homens que valorizam seu estilo</p>
+        </div>
+    </div>
+</footer>
+
+
+<!-- ================================================
+     BOTÃO WHATSAPP FLUTUANTE
+================================================ -->
+<a href="https://wa.me/5511999999999?text=Ol%C3%A1%21+Vi+o+site+e+quero+agendar+meu+hor%C3%A1rio."
+   class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-float__tip">Agendar pelo WhatsApp</span>
+</a>
+
+<!-- Botão voltar ao topo -->
+<button class="back-top" id="back-top" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
